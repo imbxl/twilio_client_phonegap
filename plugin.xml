@@ -31,9 +31,9 @@
         </config-file>
 
         <source-file src="src/android/com/phonegap/plugins/twilioclient/IncomingConnectionActivity.java"
-                target-dir="src/com/phonegap/plugins/twilioclient" />
+                target-dir="src/com/assistenlinea/cordova/plugin/twilioclient" />
          <source-file src="src/android/com/phonegap/plugins/twilioclient/TCPlugin.java"
-                target-dir="src/com/phonegap/plugins/twilioclient" />
+                target-dir="src/com/assistenlinea/cordova/plugin/twilioclient" />
         <info>
 This plugin also uses the Android Support Library V4. You only need one copy of this library (a JAR file) in your libs directory. See http://developer.android.com/tools/support-library/index.html for information about how to download this library to your computer. Then copy android-support-v4.jar to your libs folder.        
         
