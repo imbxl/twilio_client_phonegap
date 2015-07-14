@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.phonegap.plugins.twilioclient"
+    id="com.assistenlinea.cordova.plugin.twilioclient"
     version="1.0.2">
 
     <name>TwilioClient</name>
@@ -20,13 +20,13 @@
             <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-             <activity android:name="com.phonegap.plugins.twilioclient.IncomingConnectionActivity"  android:theme="@android:style/Theme.NoDisplay"/>
+             <activity android:name="com.assistenlinea.cordova.plugin.twilioclient.IncomingConnectionActivity"  android:theme="@android:style/Theme.NoDisplay"/>
             <service android:name="com.twilio.client.TwilioClientService" android:exported="false" />
         </config-file>
 
         <config-file target="res/xml/config.xml" parent="/widget">
            <feature name="TCPlugin">
-              <param name="android-package" value="com.phonegap.plugins.twilioclient.TCPlugin"/>
+              <param name="android-package" value="com.assistenlinea.cordova.plugin.twilioclient.TCPlugin"/>
             </feature>
         </config-file>
 
