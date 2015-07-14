@@ -11,7 +11,7 @@ These are Phonegap plugins that expose the same JS API as Twilio Client for web 
 - Android SDK 21
 
 # Example application
-https://github.com/jefflinwood/TwilioClientPhoneGapExampleApp
+https://github.com/imbxl/TwilioClientPhoneGapExampleApp
 
 # PhoneGap/Cordova Overview
 
@@ -22,7 +22,7 @@ https://github.com/jefflinwood/TwilioClientPhoneGapExampleApp
 
 ##Instructions
 ```
-cordova plugin add  https://github.com/jefflinwood/twilio_client_phonegap.git
+cordova plugin add  https://github.com/imbxl/twilio_client_phonegap.git
 ```
 
 # iOS only
@@ -30,7 +30,7 @@ cordova plugin add  https://github.com/jefflinwood/twilio_client_phonegap.git
 ##Instructions
 
 ```
- plugman install --platform ios --project platforms/ios --plugin https://github.com/jefflinwood/twilio_client_phonegap.git
+ plugman install --platform ios --project platforms/ios --plugin https://github.com/imbxl/twilio_client_phonegap.git
 
 ```
 
@@ -42,7 +42,7 @@ cordova plugin add  https://github.com/jefflinwood/twilio_client_phonegap.git
 ## Instructions
 
 ```
-plugman install --platform android --project platforms/android --plugin https://github.com/jefflinwood/twilio_client_phonegap.git
+plugman install --platform android --project platforms/android --plugin https://github.com/imbxl/twilio_client_phonegap.git
 
 ```
 
